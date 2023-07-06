@@ -1,0 +1,85 @@
+.carousel .carousel-item img{
+    width: 100%;
+    height: 75vh;
+}
+
+.about_section {
+    width: 100%;
+    float: left;
+}
+
+.about_taital_main {
+    width: 100%;
+    float: left;
+    padding: 120px 0px;
+    
+}
+
+.about_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #f76d37;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+.about_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #4c4c4b;
+    margin: 0px;
+    padding-top: 10px;
+    
+}
+.read_bt {
+    width: 175px;
+    float: left;
+    padding-top: 40px;
+    
+}
+
+.read_bt a {
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    background-color: #252525;
+    color: #ffffff;
+    text-align: center;
+    padding: 8px;
+    
+}
+
+.read_bt a:hover {
+    color: #ffffff;
+    background-color: #f76d37;
+}
+
+.about_img img{
+    
+    width: 100%;
+    height: 100%;
+   
+}
+
+.best_taital {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #f76d37;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+.best_img img{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.best_seller span{
+    color: #8c8d86;
+}

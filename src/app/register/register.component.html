@@ -1,0 +1,175 @@
+<header class="header">
+  <nav class="navbar navbar-expand-lg navbar-light py-3">
+    <div class="container">
+      <a href="#" class="navbar-brand">
+        <h2>Regaia Shop</h2>
+      </a>
+    </div>
+  </nav>
+</header>
+
+<div class="container">
+  <div class="row py-5 mt-4 align-items-center">
+    <div class="col-md-5 pr-lg-5 mb-5 mb-md-0">
+      <img
+        src="https://bootstrapious.com/i/snippets/sn-registeration/illustration.svg"
+        alt=""
+        class="img-fluid mb-3 d-none d-md-block"
+      />
+      <h1>Tạo tài khoản</h1>
+      <p class="font-italic text-muted mb-0">
+        Khách hàng vui lòng tạo tài khoản để có thể sử dụng dịch vụ một cách
+        thuận tiện và chính xác nhất, đồng thời nhận sự hỗ trợ của chúng tôi.
+      </p>
+    </div>
+
+    <div class="col-md-7 col-lg-6 ml-auto">
+      <form action="#">
+        <div class="row">
+          <div class="input-group col-lg-6 mb-4">
+            <span class="input-group-text bg-white px-4 border-md">
+              <i class="fa fa-user text-muted"></i>
+            </span>
+            <input
+              id="firstName"
+              type="text"
+              name="firstname"
+              placeholder="First Name"
+              class="form-control bg-white border-md"
+            />
+          </div>
+
+          <div class="input-group col-lg-6 mb-4">
+            <span class="input-group-text bg-white px-4 border-md">
+              <i class="fa fa-user text-muted"></i>
+            </span>
+            <input
+              id="lastName"
+              type="text"
+              name="lastname"
+              placeholder="Last Name"
+              class="form-control bg-white border-md"
+            />
+          </div>
+
+          <div class="input-group col-lg-12 mb-4">
+            <span class="input-group-text bg-white px-4 border-md">
+              <i class="fa fa-envelope text-muted"></i>
+            </span>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="Email Address"
+              class="form-control bg-white border-md"
+            />
+          </div>
+
+          <div class="input-group col-lg-12 mb-4">
+            <span class="input-group-text bg-white px-4 border-md">
+              <i class="fa fa-phone-square text-muted"></i>
+            </span>
+            <select
+              id="countryCode"
+              name="countryCode"
+              style="max-width: 80px"
+              class="custom-select form-control bg-white border-md h-100 font-weight-bold text-muted"
+            >
+              <option value="">+12</option>
+              <option value="">+10</option>
+              <option value="">+15</option>
+              <option value="">+18</option>
+            </select>
+            <input
+              id="phoneNumber"
+              type="tel"
+              name="phone"
+              placeholder="Phone Number"
+              class="form-control bg-white border-md pl-3"
+            />
+          </div>
+          .
+
+          <div class="input-group col-lg-12 mb-4">
+            <span class="input-group-text bg-white px-4 border-md">
+              <i class="fa-solid fa-user-tie text-muted"></i>
+            </span>
+            <select
+              id="job"
+              name="jobtitle"
+              class="form-control custom-select bg-white border-md"
+              style="color: #ccc"
+            >
+              <option value="">Choose your job</option>
+              <option value="">Designer</option>
+              <option value="">Developer</option>
+              <option value="">Manager</option>
+              <option value="">Accountant</option>
+            </select>
+          </div>
+
+          <div class="input-group col-lg-6 mb-4">
+            <span class="input-group-text bg-white px-4 border-md">
+              <i class="fa fa-lock text-muted"></i>
+            </span>
+            <input
+              id="password"
+              type="password"
+              name="password"
+              placeholder="Password"
+              class="form-control bg-white border-md"
+            />
+          </div>
+
+          <div class="input-group col-lg-6 mb-4">
+            <span class="input-group-text bg-white px-4 border-md">
+              <i class="fa fa-lock text-muted"></i>
+            </span>
+            <input
+              id="passwordConfirmation"
+              type="text"
+              name="passwordConfirmation"
+              placeholder="Confirm Password"
+              class="form-control bg-white border-md"
+            />
+          </div>
+
+          <div class="form-group col-lg-12 text-center">
+            <a href="#" class="btn btn-success btn-block py-2">
+              <i class="fa-solid fa-check"></i>
+              <span class="font-weight-bold mx-2">Create your account</span>
+            </a>
+          </div>
+
+          <div
+            class="form-group col-lg-12 mx-auto d-flex align-items-center my-4"
+          >
+            <div class="border-bottom w-100 ml-5"></div>
+            <span class="px-2 small text-muted font-weight-bold text-muted"
+              >OR</span
+            >
+            <div class="border-bottom w-100 mr-5"></div>
+          </div>
+
+          <div class="form-group col-lg-12 mx-auto text-center">
+            <a href="#" class="btn btn-primary p-2 btn-block btn-facebook">
+              <i class="fa-brands fa-facebook"></i>
+              <span class="font-weight-bold mx-2">Continue with Facebook</span>
+            </a>
+            <a href="#" class="btn mx-2 btn-primary p-2 btn-block btn-twitter">
+              <i class="fa-brands fa-twitter"></i>
+              <span class="mx-2 font-weight-bold">Continue with Twitter</span>
+            </a>
+          </div>
+
+          <div class="text-center w-100 mt-2">
+            <p class="text-muted font-weight-bold">
+              Already Registered?
+              <a routerLink="/login" class="text-primary ml-2">Login</a>
+            </p>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
