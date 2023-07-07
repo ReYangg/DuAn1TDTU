@@ -1,0 +1,71 @@
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 350px;
+    padding: 10px 14px;
+    background: #252525;
+    z-index: 100; 
+}
+
+.sidebar li{
+    height: 50px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+
+.sidebar .text{
+    font-size: 18px;
+}
+
+.header-text .name{
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+}
+
+.sidebar li .icon{
+    font-size: 30px;
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar li .icon, .sidebar li .text{
+    color: white;
+}
+
+.sidebar li a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.sidebar .search-box{
+    background: #535353;
+}
+
+.search-box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    background: #535353;
+}
+
+::placeholder{
+    color: white;
+}
+
+.sidebar li a:hover{
+    background: #be6868;
+}
