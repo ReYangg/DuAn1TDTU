@@ -8,10 +8,15 @@ import { LoginComponent } from './login/login.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './home/home.component';
 import { ProductsComponent } from './products/products.component';
-import { AdminComponent } from './admin/admin.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { AdminlistaccountsComponent } from './adminlistaccounts/adminlistaccounts.component';
+import { AdminaddproductsComponent } from './adminaddproducts/adminaddproducts.component';
+import { AdminlistproductsComponent } from './adminlistproducts/adminlistproducts.component';
+import { HttpClientModule } from '@angular/common/http';
+import { AgGridModule } from 'ag-grid-angular';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,15 +25,21 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     LoginComponent,
     HomeComponent,
     ProductsComponent,
-    AdminComponent,
     NavbarComponent,
     FooterComponent,
-    SidebarComponent
+    SidebarComponent,
+    AdminlistaccountsComponent,
+    AdminaddproductsComponent,
+    AdminlistproductsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule,
+    AgGridModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

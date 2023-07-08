@@ -1,19 +1,12 @@
 {
-  "posts": [
+  "products": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "productName": "iPhone 14 Pro Max",
+      "productScreenSize": "6.7'",
+      "productScreenResolution": "Full HD+",
+      "productPrice": "29.990.000đ",
+      "productOrigin": "Apple",
+      "id": 2
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
