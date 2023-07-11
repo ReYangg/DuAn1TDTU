@@ -20,4 +20,12 @@ export class AdminproductsService {
   deleteProduct(id:any){
     return this.http.delete(`${this.url}/${id}`);
   }
+
+  getProduct(id:any){
+    return this.http.get(`${this.url}/${id}`);
+  }
+
+  updateProduct(id, data){
+    return this.http.put(`${this.url}/${id}`,data);
+  }
 }

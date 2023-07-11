@@ -1,11 +1,21 @@
 {
   "products": [
     {
-      "productName": "iPhone 14 Pro Max",
-      "productScreenSize": "6.7'",
-      "productScreenResolution": "Full HD+",
-      "productPrice": "29.990.000đ",
-      "productOrigin": "Apple",
+      "productImage": "C:\\fakepath\\iphone14.png",
+      "productName": "wqrtqw",
+      "productScreenSize": "",
+      "productScreenResolution": "",
+      "productPrice": "",
+      "productOrigin": "",
+      "id": 1
+    },
+    {
+      "productImage": "C:\\fakepath\\opporeno8.png",
+      "productName": "wetgweg",
+      "productScreenSize": "",
+      "productScreenResolution": "",
+      "productPrice": "",
+      "productOrigin": "",
       "id": 2
     }
   ]
